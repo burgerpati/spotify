@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Spotify Website</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+
+    <h1>MY PLAYLIST</h1>
+    <p class="subtitle">Listen to my favorite songs</p>
+
+    <div class="spotify-player">
+
+      <iframe
+        style="border-radius:20px"
+        src="https://open.spotify.com/embed/playlist/YOUR_PLAYLIST_ID?utm_source=generator"
+        width="100%"
+        height="500"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+
+    </div>
+
+    <button id="themeButton">Change Background</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
